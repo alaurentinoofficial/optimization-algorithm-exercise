@@ -31,5 +31,5 @@ limites = [(0, None)]  # Número de clientes não pode ser negativo
 resultado = minimize(prejuizo, chute_inicial, method="SLSQP", bounds=limites, constraints=restricoes)
 
 # Resultado final
-clientes_otimizados = resultado.x[0]
-print(f"Número ideal de clientes para break-even: {clientes_otimizados:.0f}")
+clientes_otimizados = round(resultado.x[0])
+print(f"Número ideal de clientes para break-even: {clientes_otimizados}")

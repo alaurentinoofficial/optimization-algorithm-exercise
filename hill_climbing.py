@@ -40,6 +40,6 @@ def hill_climbing(initial_guess, step_size=1, max_iterations=1000, tolerance=1e-
 
 # Chamada do algoritmo
 initial_guess = 100  # Chute inicial para o número de clientes
-resultado = hill_climbing(initial_guess)
+resultado = round(hill_climbing(initial_guess))
 
-print(f"Número ideal de clientes para break-even: {resultado:.0f}")
+print(f"Número ideal de clientes para break-even: {resultado}")

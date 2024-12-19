@@ -51,6 +51,6 @@ def simulated_annealing(initial_guess, temperature=1000, cooling_rate=0.95, tole
 
 # Chamada do algoritmo
 initial_guess = 100  # Chute inicial para o número de clientes
-resultado = simulated_annealing(initial_guess)
+resultado = round(simulated_annealing(initial_guess))
 
-print(f"Número ideal de clientes para break-even: {resultado:.0f}")
+print(f"Número ideal de clientes para break-even: {resultado}")
