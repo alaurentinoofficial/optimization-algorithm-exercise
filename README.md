@@ -19,3 +19,6 @@ python3 hill_climbing.py
 python3 slsqp.py
 ```
 
+4. Execute o projeto para o metódo de Simulated Annealing
+```
+python3 simulated_annealing.py
